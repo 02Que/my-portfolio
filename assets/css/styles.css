@@ -25,6 +25,28 @@
   --z-back: -10;
   --z-fixed: 100;
 }
+/*==dark-mode style==*/
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #fff !important;
+}
+
+[data-theme="dark"] .bg-dark {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #222 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+/*==dark-mode style==*/
 
 @media screen and (min-width: 968px) {
   :root {
@@ -53,6 +75,15 @@ body {
 
 h1, h2, p {
   margin: 0;
+}
+
+i {
+  color: rgb(0, 84, 193);
+  font-size: 20px;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 ul {
@@ -133,7 +164,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    /*background-color: var(--second-color);*/
     transition: .5s;
   }
 }
@@ -144,7 +175,7 @@ img {
 
 .nav__link {
   position: relative;
-  color: #fff;
+  color:#000000;
 }
 
 .nav__link:hover {
@@ -230,12 +261,11 @@ img {
   width: 260px;
 }
 
-.home__blob {
+/*.home__blob {
   fill: var(--first-color);
-}
-
+}*/
 .home__blob-img {
-  width: 360px;
+  width: 600px;
 }
 
 /*BUTTONS*/
