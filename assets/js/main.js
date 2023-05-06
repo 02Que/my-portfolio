@@ -18,7 +18,7 @@ function sendEmail() {
     const body = encodeURIComponent(emailText);
   
     // Set the email address and subject
-    const emailAddress = "buelaniquinton86@gmail.com";
+    const emailAddress = "bulelaniquinton86@gmail.com";
     const subject = "Email from my website";
   
     // Construct the mailto: URL
