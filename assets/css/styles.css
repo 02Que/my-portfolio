@@ -275,7 +275,7 @@ img {
 .home__blob {
   fill: var(--first-color);
   position: relative;
-  left: 25%;
+  left: 15%;
 }
 
 .home__blob-img {
