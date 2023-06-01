@@ -200,9 +200,11 @@ img {
 }
 
 .nav__toggle {
-  color: var(--second-color);
+  color: var(--first-color);
   font-size: 1.5rem;
   cursor: pointer;
+  position: relative;
+  left: 20%;
 }
 
 #toggleDark{
@@ -238,6 +240,8 @@ img {
 
 .home__data {
   align-self: center;
+  position: relative;
+  top: 20%;
 }
 
 .home__title {
