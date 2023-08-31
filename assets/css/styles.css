@@ -392,6 +392,14 @@ img {
   row-gap: 2rem;
 }
 
+.skill-title{
+  text-docoration: none;
+}
+
+.skill-description{
+  text-decoration: none;
+}
+
 .work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
